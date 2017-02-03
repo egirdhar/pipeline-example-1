@@ -10,4 +10,4 @@ param(
     $Repo = '\\Server\DSCRepo'
 )
 
- Get-ChildItem -Path c:\jenkins_home\ -Filter SonarQube.Scanner.MSBuild.exe -Recurse -ErrorAction SilentlyContinue -Force
+ Get-ChildItem -Path c:\jenkins_home\ -Filter nuget.exe -Recurse -ErrorAction SilentlyContinue -Force
